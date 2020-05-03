@@ -1,0 +1,4 @@
+pl\javastart\beans\MessageProducer.class
+pl\javastart\beans\MessagePrinter.class
+pl\javastart\app\SpringDiApplication.class
+pl\javastart\beans\SimpleMessageProducer.class
