@@ -3,18 +3,20 @@ package pl.javastart.beans;
 public class MessagePrinter {
     private MessageProducer producer;
 
-    public MessagePrinter() {
+    MessagePrinter() {}
+
+    public MessagePrinter(MessageProducer producer) {
+        this.producer = producer;
     }
 
     public MessageProducer getProducer() {
         return producer;
     }
-
     public void setProducer(MessageProducer producer) {
         this.producer = producer;
     }
 
-    public void print(){
+    public void print() {
         System.out.println(producer.getMessage());
     }
 }
